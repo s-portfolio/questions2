@@ -107,9 +107,9 @@ function getUser($id){
 }
 
 function dbConnect(){
-    $dsn = 'mysql:host=localhost;dbname=practice;charset=utf8';
-    $user = 'root';
-    $password = 'root';
+    $dsn = 'mysql:host=us-cdbr-east-02.cleardb.com;dbname=heroku_da9bd3d4ad26a71;charset=utf8';
+    $user = 'b06bdab8931359';
+    $password = '9ba80aad';
     $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                      PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
                      PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true   );
